@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+  public int Countevens(int input1,int input2,int input3,int input4,int input6)
+  {
+    int count=0;
+		int[] arr = new int[]{input1,input2,input3,input4,input5};
+		for(int j=0; j<arr.length;j++)
+		{
+			if(arr[j]%2 != 0)
+			{
+				count+=1;
+			}
+		}
+		return count;
+	}
+}
