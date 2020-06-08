@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+public class Usermaincode
+{
+  public int isPrime(int input1)
+  {
+    boolean flag= false;
+		for(int i=2; i<input1/2;i++)
+		{
+			if(input1%i == 0)
+				flag = true;
+		}
+		if(flag)
+			return 1;
+		else
+			return 2;
+
+	}
+}
