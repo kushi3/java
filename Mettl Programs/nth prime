@@ -1,1 +1,23 @@
-
+import java.io.*;
+import java.util.*;
+public class Usermaincode
+{
+  public int nFactorial(int input1)
+  {
+    int a=2,b=0,i,c=0,d=0;
+		while(b<=input1){
+			for(i=2;i<a/2;i++){
+				if(a%i==0){
+					c++;
+				}
+			}
+			if(c==0){
+				b++;
+				d=a;
+			}
+			a++;
+			c=0;
+		}
+		return d;
+	}
+}
